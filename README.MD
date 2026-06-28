@@ -299,17 +299,13 @@ https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/git.png
 
 ### Event Hub
 
-```markdown
-![Event Hub](Screenshot/Event_Hub.png)
-```
 
----
+![Event Hub](Screenshot/Event_Hub.png)
+
 
 ### Wind Generator Console
 
-```markdown
 ![Wind Generator Console](Screenshot/WindGenerator%20console.png)
-```
 
 ---
 
