@@ -154,6 +154,12 @@ ________________________________________
 
 <img width="1163" height="648" alt="EMail_Received" src="https://github.com/user-attachments/assets/43ec74a2-fde4-4189-a4ed-1ef30779b31a" />
 
+
+
+#####  Validate Table Storage Writes
+<img width="1900" height="979" alt="Validate Table Storage Writes" src="https://github.com/user-attachments/assets/ce59bf02-89e1-4ad6-93a8-4ab50bab87e7" />
+
+
 ##### Logic App Sends Email Notification
  
 
