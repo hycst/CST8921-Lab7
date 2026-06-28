@@ -1,30 +1,23 @@
-CST8921 – Cloud Industry Trends
-Lab 7 – Smart Turbine Monitoring System
+#### CST8921 – Cloud Industry Trends
+#### Lab 7 – Smart Turbine Monitoring System
 
 
-Overview
+#### Overview
 This project implements a cloud-based Smart Turbine Monitoring System using Microsoft Azure.
 The solution simulates wind turbine telemetry, processes incoming events with Azure Functions, stores processed data in Azure Table Storage, and automatically sends email notifications when an unhealthy turbine is detected.
 Azure Services Used
-•	Azure Event Hub
-•	Azure Function App
-•	Azure Table Storage
-•	Azure Logic Apps
-•	Office 365 Outlook
 
-
-
-
-
-
-
-
+-	Azure Event Hub
+-	Azure Function App
+-	Azure Table Storage
+-	Azure Logic Apps
+-	Office 365 Outlook
 
 
 
 
 ________________________________________
-Architecture
+#### Architecture
 WindGenerator (.NET)
         │
         ▼
@@ -44,13 +37,7 @@ Email Notification
 
 
 
-
-
-
-
-
-
-Workflow
+####  Workflow
 1.	WindGenerator generates wind turbine telemetry.
 2.	Telemetry is sent to Azure Event Hub.
 3.	Azure Function processes each event.
@@ -59,11 +46,12 @@ o	HEALTHY
 o	URGENT
 5.	Processed telemetry is stored in the TurbineMetrics Azure Table.
 6.	Azure Logic App runs every minute.
-7.	Logic App retrieves records using the filter:
-Status eq 'URGENT'
+7.	Logic App retrieves records using the filter:  Status eq 'URGENT'
 8.	Email notifications are automatically sent through Office 365 Outlook.
+
+   
 ________________________________________
-Project Structure
+####  Project Structure
 lab7
 │
 ├── FunctionEGDWDumper
@@ -71,19 +59,8 @@ lab7
 ├── Screenshot
 └── README.md
 ________________________________________
-Sample Email Notification
 
-
-Project Structure
-lab7
-│
-├── FunctionEGDWDumper
-├── WindGenerator
-├── Screenshot
-└── README.md
-________________________________________
-Sample Email Notification
- 
+#### Sample Email Notification
 
 Subject：
 Smart Turbine Alert - URGENT CST8921 Lab7
@@ -91,7 +68,6 @@ Smart Turbine Alert - URGENT CST8921 Lab7
 From： H Y<hy7work@outlook.com>
 
 Email Body：
-Hesheng Yang
 Hi,
 
 An unhealthy wind turbine has been detected.
@@ -124,51 +100,51 @@ ________________________________________
 
 
 
-Screenshots
-Event Hub
+####  Screenshots
+#####  Event Hub
  
-WindGenerator Console
- 
-
-Azure Function
- 
-Azure Table Storage
+##### WindGenerator Console
  
 
+##### Azure Function
  
- 
-
-Logic App Workflow Execution
-
+##### Azure Table Storage
  
 
  
  
 
+##### Logic App Workflow Execution
+
  
 
-
-
+ 
  
 
  
 
 
 
-
-
-Email Notification Received
  
-Logic App Sends Email Notification
+
  
 
 
 
 
 
-Logic App Run History
+##### Email Notification Received
  
-Email Notification
+##### Logic App Sends Email Notification
+ 
+
+
+
+
+
+##### Logic App Run History
+ 
+##### Email Notification
  
  
 
@@ -187,27 +163,30 @@ Email Notification
 
 
 
-GitHub Repository
+##### GitHub Repository
 https://github.com/hycst/CST8921-Lab7
  
 ________________________________________
-Run Procedure
+#### Run Procedure
 1.	Deploy the Azure Function App.
 2.	Configure Event Hub and Azure Table Storage.
 3.	Run the WindGenerator application.
 4.	Verify telemetry is stored in Azure Table Storage.
 5.	Wait for the Logic App to execute.
 6.	Check Outlook for URGENT email notifications.
-Result
-The Smart Turbine Monitoring System was successfully implemented using Azure cloud services.
-The solution demonstrates an end-to-end event-driven serverless architecture by:
-•	Generating simulated wind turbine telemetry.
-•	Sending telemetry to Azure Event Hub.
-•	Processing incoming events using Azure Functions.
-•	Determining the turbine health status (HEALTHY or URGENT).
-•	Storing processed telemetry in Azure Table Storage.
-•	Retrieving URGENT records using Azure Logic Apps.
-•	Automatically sending email notifications through Office 365 Outlook.
+
+##### Result
+The Smart Turbine Monitoring System was successfully implemented using Azure cloud services. The solution demonstrates an end-to-end event-driven serverless architecture by:
+
+
+1. Generating simulated wind turbine telemetry.
+2. Sending telemetry to Azure Event Hub.
+3. Processing incoming events using Azure Functions.
+4. Determining the turbine health status (HEALTHY or URGENT).
+5. Storing processed telemetry in Azure Table Storage.
+6. Retrieving URGENT records using Azure Logic Apps.
+7. Automatically sending email notifications through Office 365 Outlook.
+
 This project demonstrates how Azure Event Hub, Azure Functions, Azure Table Storage, and Azure Logic Apps can be integrated to build a scalable, event-driven monitoring solution.
 
 
