@@ -219,19 +219,23 @@ ________________________________________
 
 Screenshots
 Event Hub
- 
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Event_Hub.png
+
 WindGenerator Console
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/WindGenerator%20console.png
  
 
 Azure Function
- 
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/FunctionApp.png
+
 Azure Table Storage
- 
+ https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Table.png
 
  
  
 
 Logic App Workflow Execution
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Work_flow.png
 
  
 
@@ -251,8 +255,11 @@ Logic App Workflow Execution
 
 
 Email Notification Received
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/EMail_Received.png
+
  
 Logic App Sends Email Notification
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Sends%20email%20notification.jpg
  
 
 
@@ -260,12 +267,14 @@ Logic App Sends Email Notification
 
 
 Logic App Run History
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Logic_app_rrunning.jpg
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Running_History.png
  
 Email Notification
  
  
 
-
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Sends%20email%20notification.jpg
 
 
 
@@ -282,6 +291,7 @@ Email Notification
 
 GitHub Repository
 https://github.com/hycst/CST8921-Lab7
+https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/git.png
  
 ________________________________________
 Run Procedure
