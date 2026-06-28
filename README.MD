@@ -292,6 +292,95 @@ https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/Sends%20email%20notif
 GitHub Repository
 https://github.com/hycst/CST8921-Lab7
 https://github.com/hycst/CST8921-Lab7/blob/main/Screenshot/git.png
+
+
+
+## Screenshots
+
+### Event Hub
+
+```markdown
+![Event Hub](Screenshot/Event_Hub.png)
+```
+
+---
+
+### Wind Generator Console
+
+```markdown
+![Wind Generator Console](Screenshot/WindGenerator%20console.png)
+```
+
+---
+
+### Azure Function
+
+```markdown
+![Azure Function](Screenshot/FunctionApp.png)
+```
+
+---
+
+### Azure Table Storage
+
+```markdown
+![Azure Table Storage](Screenshot/Table.png)
+```
+
+---
+
+### Logic App Workflow Execution
+
+```markdown
+![Logic App Workflow](Screenshot/Work_flow.png)
+```
+
+---
+
+### Email Notification Received
+
+```markdown
+![Email Received](Screenshot/EMail_Received.png)
+```
+
+---
+
+### Logic App Sends Email Notification
+
+```markdown
+![Logic App Sends Email](Screenshot/Sends%20email%20notification.jpg)
+```
+
+---
+
+### Logic App Run History
+
+If you want to show both screenshots:
+
+```markdown
+![Logic App Running](Screenshot/Logic_app_rrunning.jpg)
+
+![Running History](Screenshot/Running_History.png)
+```
+
+If only one is needed, keep the clearer one.
+
+---
+
+### GitHub Repository
+
+Repository:
+
+```text
+https://github.com/hycst/CST8921-Lab7
+```
+
+Repository Screenshot:
+
+```markdown
+![GitHub Repository](Screenshot/git.png)
+```
+
  
 ________________________________________
 Run Procedure
